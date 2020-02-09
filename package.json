@@ -1,0 +1,19 @@
+{
+  "name": "frontend-es6",
+  "version": "10.0.0",
+  "description": "Bridge School's Frontend development course ES6 module",
+  "main": "index.js",
+  "author": "Shaun Lloyd",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "example": "node ./scripts/run-example.js",
+    "exercise": "node ./scripts/run-exercises.js",
+    "homework": "node ./scripts/run-homework.js",
+    "check-homework": "jest --verbose"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "jest": "^24.9.0"
+  }
+}
